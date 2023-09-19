@@ -19,7 +19,9 @@ h1 {
   color: white;
 }
 
-
+button {
+  color: white;
+}
 
 footer>div {
   background-color: white;
@@ -59,4 +61,11 @@ header.buttons {
 
 .main-text>b {
   color: #fafd61;
+}
+
+
+.blue-button {
+  border-radius: 10px;
+  padding: 5px 5px;
+  background-color: blue;
 }
