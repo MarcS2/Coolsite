@@ -4,34 +4,58 @@ body {
 
 header {
   display: flex;
-  padding: 1.5em 1em;
+  padding: 3vh 2vh;
   justify-content: space-between;
 }
 
-.mainbgc {
-  background-color: #061130;
-  padding-bottom: 27em;
-  margin: 0;
-
+main {
+  padding: 5vh 27vh 8vh 29vh;
+  display: flex;
+  justify-content: space-between;
 }
 
-main>p {
+
+h1 {
+  color: white;
+}
+
+
+.main-text>b {
   color: #fafd61;
 }
 
 footer>div {
   background-color: white;
-  padding: 2.5em;
+  padding: 6vh;
   justify-content: space-evenly;
   display: flex;
+  font-weight: bold;
 }
 
 footer>nav {
   background-color: lightgray;
-  padding-bottom: 8em;
+  padding: 3.4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header.buttons {
   display: flex;
 
+}
+
+.mainbgc {
+  background-color: #061130;
+  padding-bottom: 1em;
+  margin: 0;
+
+}
+
+.main-text {
+  max-width: 33%;
+}
+
+.main-text>p {
+  color: white;
 }
